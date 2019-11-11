@@ -1,0 +1,31 @@
+PODS:
+  - GoogleMaps (3.6.0):
+    - GoogleMaps/Maps (= 3.6.0)
+  - GoogleMaps/Base (3.6.0)
+  - GoogleMaps/Maps (3.6.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.6.0):
+    - GoogleMaps/Base (= 3.6.0)
+  - GRDB.swift (4.6.1):
+    - GRDB.swift/standard (= 4.6.1)
+  - GRDB.swift/standard (4.6.1)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - GooglePlaces
+  - GRDB.swift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GoogleMaps
+    - GooglePlaces
+    - GRDB.swift
+
+SPEC CHECKSUMS:
+  GoogleMaps: 82f8fe307193bb4de6ef6bf9e88f1d624b718f9d
+  GooglePlaces: 1b9d29cf3e164903d873600f511f42acdfe85294
+  GRDB.swift: 5e9a23bb3b8786329bef6cae80644b3b86b006c0
+
+PODFILE CHECKSUM: e1f3766b0857fccf4a0ccfa14cc6c15f221a6982
+
+COCOAPODS: 1.7.5
